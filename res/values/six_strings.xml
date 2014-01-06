@@ -319,4 +319,9 @@
     <!-- Power notifications -->
     <string name="power_notifications_title">Power notifications</string>
     <string name="power_notifications_summary">Advanced notifications control on long press</string>
+
+    <!-- Force expanded notifications -->
+    <string name="force_expanded_notifications_title">Force Expanded Notifications</string>
+    <string name="force_expanded_notifications_summary">Available only for apps that support expanded notifications</string>
+
 </resources>

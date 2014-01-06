@@ -65,6 +65,12 @@
         android:summary="@string/status_bar_quick_qs_pulldown_sum"
         android:defaultValue="true" />
 
+    <com.six.settings.preferences.SystemSettingSwitchPreference
+        android:key="force_expanded_notifications"
+        android:title="@string/force_expanded_notifications_title"
+        android:summary="@string/force_expanded_notifications_summary" 
+        android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
