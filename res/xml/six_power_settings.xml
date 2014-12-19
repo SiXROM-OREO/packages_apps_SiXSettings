@@ -17,6 +17,11 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <Preference
+        android:key="power_menu"
+        android:title="@string/power_menu_title"
+        android:fragment="com.six.settings.PowerMenuActions" />
+
     <ListPreference
         android:key="torch_power_button_gesture"
         android:title="@string/torch_power_button_gesture_title"
