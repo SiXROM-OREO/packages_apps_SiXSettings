@@ -47,8 +47,8 @@
         android:title="@string/six_recent_settings_title"/>
 
     <Preference
-        android:key="animations"
-        android:title="@string/animations"
+        android:key="six_animations"
+        android:title="@string/six_animations"
         android:fragment="com.six.settings.AnimationSettings" />
     </PreferenceCategory>
 
