@@ -39,4 +39,5 @@
         android:title="@string/headset_connect_player_title"
         android:entries="@array/headset_connect_player_entries"
         android:entryValues="@array/headset_connect_player_values" />
+
 </PreferenceScreen>

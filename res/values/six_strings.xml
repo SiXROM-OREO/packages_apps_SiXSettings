@@ -74,7 +74,7 @@
     <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
 
     <!-- Launch music player when headset is connected -->
-
+    <string name="headset_connect_player_title">Launch music app on headset connection</string>
     <string name="headset_connect_player_disabled">Disabled</string>
     <string name="headset_connect_player_wired">When wired headset is plugged in</string>
     <string name="headset_connect_player_bt_no_carkit">When BT headset (no carkit) is plugged in</string>
