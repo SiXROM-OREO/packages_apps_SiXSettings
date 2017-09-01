@@ -29,7 +29,7 @@ public class SixSettings extends SettingsPreferenceFragment {
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         addPreferencesFromResource(R.xml.six_settings_main);
-        PreferenceScreen prefScreen = getPreferenceScreen();
+
     }
 
     @Override
