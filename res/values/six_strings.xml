@@ -15,7 +15,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- SiXROM fragments -->
-    <string name="six_settings_title">Extra rom tweaks and mods</string>
+    <string name="six_settings_title">Extra ROM tweaks</string>
     <string name="six_interface">Interface</string>
     <string name="lockscreen_settings_title">Lockscreen and security</string>
     <string name="navigationbar_settings_title">Navigation</string>
