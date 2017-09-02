@@ -21,6 +21,11 @@
         android:key="apps_security"
         android:title="@string/apps_security_options_title" >
 
+       <Preference
+             android:id="@+id/alarm_blocker"
+             android:fragment="com.six.settings.AlarmBlocker"
+             android:title="@string/alarm_blocker" />
+
        <com.six.settings.preferences.SystemSettingSwitchPreference
             android:key="toast_icon"
             android:title="@string/toast_icon_title"
