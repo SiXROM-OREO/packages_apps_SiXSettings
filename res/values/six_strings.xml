@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2017 ABC Rom
-
+     Copyright (C) 2017 SiXROM
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -17,19 +17,19 @@
     <!-- SiXROM fragments -->
     <string name="six_settings_title">Extra ROM tweaks</string>
     <string name="six_interface">Interface</string>
-    <string name="lockscreen_settings_title">Lockscreen and security</string>
-    <string name="navigationbar_settings_title">Navigation</string>
-    <string name="notification_drawer_settings_title">Notifications and QS tiles</string>
-    <string name="statusbar_settings_title">Status bar</string>
-    <string name="six_sys">Misc</string>
-    <string name="power_settings_title">Power</string>
-    <string name="volumerocker_settings_title">Volume and media</string>
-    <string name="screen_settings_title">Display</string>
-    <string name="other_settings_title">Other</string>
-    <string name="six_leds">LED lights</string>
+    <string name="six_lockscreen_settings_title">Lockscreen and security</string>
+    <string name="six_navigationbar_settings_title">Navigation</string>
+    <string name="six_notification_drawer_settings_title">Notification and Tiles</string>
+    <string name="six_statusbar_settings_title">Statusbar</string>
+    <string name="six_sys">System</string>
+    <string name="six_power_settings_title">Power</string>
+    <string name="six_volumerocker_settings_title">Volume and media</string>
+    <string name="six_screen_settings_title">Display</string>
+    <string name="six_other_settings_title">Misc</string>
+    <string name="six_leds">LED controls</string>
     <string name="six_battery_light_settings">Battery charging light</string>
     <string name="six_notification_light_settings">Notifications light</string>
-    <string name="recent_settings_title">Recents panel</string>
+    <string name="six_recent_settings_title">Recents panel</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
@@ -42,16 +42,17 @@
     <string name="color_default">Default</string>
 
     <!-- NavBar -->
-    <string name="double_tap_sleep_navbar">Double tap to sleep on navbar</string>
-    <string name="double_tap_sleep_lockscreen">Double tap to sleep on lockscreen</string>
+    <string name="double_tap_sleep_navbar">Double-Tap to sleep on navbar</string>
+    <string name="double_tap_sleep_lockscreen">Double-Tap to sleep on lockscreen</string>
 
     <!-- Volume rocker -->
-    <string name="swap_volume_buttons">Swap volume buttons rotation based</string>
+    <string name="swap_volume_buttons">Volume button swap (rotation based)</string>
     <string name="volume_keys_control_media_stream_title">Volume keys control media volume</string>
     <string name="volume_keys_control_media_stream_summary">Volume panel will show media volume slider by default</string>
     <string name="volume_rocker_music_controls_title">Playback control</string>
     <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
 
-    <string name="status_bar_quick_qs_pulldown">Pulldown statusbar from right side to show QS panel</string>
+    <!-- Notifications -->
+    <string name="status_bar_quick_qs_pulldown">Quick pulldown (right side) to show QS panel</string>
 
 </resources>
