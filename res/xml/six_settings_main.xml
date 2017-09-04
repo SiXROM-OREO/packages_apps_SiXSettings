@@ -68,19 +68,19 @@
 
     </PreferenceCategory>
 
-    <!--<PreferenceCategory
+    <PreferenceCategory
         android:key="six_leds"
         android:title="@string/six_leds" >
 
         <Preference
                 android:key="six_charging_light"
-                android:fragment="com.six.settings.batterylight.BatteryLightSettings"
+                android:fragment="com.six.settings.BatteryLightSettings"
                 android:title="@string/six_battery_light_settings" />
 
-        <Preference
+        <!--<Preference
                 android:key="six_notification_light"
                 android:fragment="com.six.settings.batterylight.NotificationLightSettings"
-                android:title="@string/six_notification_light_settings" />
+                android:title="@string/six_notification_light_settings" /> -->
 
-    </PreferenceCategory>-->
+    </PreferenceCategory>
 </PreferenceScreen>
