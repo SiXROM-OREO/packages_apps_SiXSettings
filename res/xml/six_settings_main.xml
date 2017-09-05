@@ -43,7 +43,7 @@
 
         <Preference
             android:key="six_recent_settings"
-            android:fragment="com.six.settings.RecentSettings"
+            android:fragment="com.six.settings.RecentsSettings"
         android:title="@string/six_recent_settings_title"/>
     </PreferenceCategory>
 
