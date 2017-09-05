@@ -39,6 +39,7 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
     private ColorPickerPreference mLowColor;
     private ColorPickerPreference mMediumColor;
     private ColorPickerPreference mFullColor;
+    private ColorPickerPreference mReallyFullColor;
     private SystemSettingSwitchPreference mLowBatteryBlinking;
 
     private PreferenceCategory mColorCategory;
@@ -85,6 +86,14 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
             mFullColor.setAlphaSliderEnabled(true);
             mFullColor.setNewPreviewColor(color);
             mFullColor.setOnPreferenceChangeListener(this);
+
+            color = Settings.System.getIntForUser(getContentResolver(),
+                    Settings.System.BATTERY_LIGHT_REALLYFULL_COLOR, 0xFF00FF00,
+                            UserHandle.USER_CURRENT);
+            mReallyFullColor = (ColorPickerPreference) findPreference("battery_light_reallyfull_color");
+            mReallyFullColor.setAlphaSliderEnabled(true);
+            mReallyFullColor.setNewPreviewColor(color);
+            mReallyFullColor.setOnPreferenceChangeListener(this);
         } else {
             prefSet.removePreference(mColorCategory);
         }
@@ -114,11 +123,18 @@ public class BatteryLightSettings extends SettingsPreferenceFragment implements
                     Settings.System.BATTERY_LIGHT_FULL_COLOR, color,
                     UserHandle.USER_CURRENT);
             return true;
+        } else if (preference.equals(mReallyFullColor)) {
+            int color = ((Integer) newValue).intValue();
+            Settings.System.putIntForUser(getContentResolver(),
+                    Settings.System.BATTERY_LIGHT_REALLYFULL_COLOR, color,
+                    UserHandle.USER_CURRENT);
+            return true;
         } else if (preference == mLowBatteryBlinking) {
             boolean value = (Boolean) newValue;
             Settings.System.putIntForUser(getActivity().getContentResolver(),
                     Settings.System.BATTERY_LIGHT_LOW_BLINKING, value ? 1 : 0,
                     UserHandle.USER_CURRENT);
+            mLowBatteryBlinking.setChecked(value);
         }
         return false;
     }

@@ -15,20 +15,20 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- SiXROM fragments -->
-    <string name="six_settings_title">Extra ROM tweaks</string>
+    <string name="six_settings_title">Custom Tweaks and Mods</string>
     <string name="six_interface">Interface</string>
-    <string name="six_lockscreen_settings_title">Lockscreen and security</string>
-    <string name="six_navigationbar_settings_title">Navigation</string>
+    <string name="six_lockscreen_settings_title">Lockscreen and Security</string>
+    <string name="six_navigationbar_settings_title">Navigation Bar</string>
     <string name="six_notification_drawer_settings_title">Notification and Tiles</string>
-    <string name="six_statusbar_settings_title">Statusbar</string>
+    <string name="six_statusbar_settings_title">Status Bar</string>
     <string name="six_sys">System</string>
     <string name="six_power_settings_title">Power</string>
-    <string name="six_volumerocker_settings_title">Volume and media</string>
+    <string name="six_volumerocker_settings_title">Volume and Media</string>
     <string name="six_screen_settings_title">Display</string>
     <string name="six_other_settings_title">Misc</string>
-    <string name="six_leds">LED controls</string>
-    <string name="six_battery_light_settings">Battery charging light</string>
-    <string name="six_notification_light_settings">Notifications light</string>
+    <string name="six_leds">LED Controls</string>
+    <string name="six_battery_light_settings">Battery Charging Light</string>
+    <string name="six_notification_light_settings">Notifications Light</string>
     <string name="six_recent_settings_title">Recents panel</string>
 
     <!-- Color Picker -->
@@ -41,56 +41,61 @@
     <string name="set">Set</string>
     <string name="color_default">Default</string>
 
-    <!-- NavBar -->
-    <string name="double_tap_sleep_navbar">Double-Tap to sleep on navbar</string>
-    <string name="double_tap_sleep_lockscreen">Double-Tap to sleep on lockscreen</string>
+    <!-- DT2W -->
+    <string name="double_tap_sleep_navbar">Double-tap to Sleep</string>
+    <string name="double_tap_sleep_navbar_summary">Double-tap on navbar empty areas to switch off the screen</string>
+    <string name="double_tap_sleep_lockscreen">Double-tap to sleep anywhere</string>
+    <string name="double_tap_sleep_lockscreen_summary">Double-tap anywhere on the lockscreen to put the device to sleep</string>
 
     <!-- Volume rocker -->
-    <string name="swap_volume_buttons">Volume button swap (rotation based)</string>
-    <string name="volume_keys_control_media_stream_title">Volume keys control media volume</string>
+    <string name="swap_volume_buttons">Volume Button Swap</string>
+    <string name="swap_volume_buttons_sum">Adjust volume buttons action based on current orientation</string>
+    <string name="volume_keys_control_media_stream_title">Volume Keys Control</string>
     <string name="volume_keys_control_media_stream_summary">Volume panel will show media volume slider by default</string>
-    <string name="volume_rocker_music_controls_title">Playback control</string>
+    <string name="volume_rocker_music_controls_title">Playback Control</string>
     <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
 
     <!-- Notifications -->
-    <string name="status_bar_quick_qs_pulldown">Quick pulldown (right side) to show QS panel</string>
+    <string name="status_bar_quick_qs_pulldown">Quick Pulldown</string>
+    <string name="status_bar_quick_qs_pulldown_sum">Right edge of the statusbar pulls down Quick Settings</string>
 
     <!-- Media art -->
-    <string name="media_art_title">Media cover art</string>
+    <string name="media_art_title">Media Cover Art</string>
     <string name="media_art_summary">Enable media cover art on the lockscreen</string>
 
     <!-- Sms security limit -->
-    <string name="apps_security_options_title">Apps security</string>
-    <string name="sms_outgoing_check_max_count_title">SMS apps message limit</string>
-    <string name="sms_outgoing_check_max_count_dialog">How many messages per minute an app can send before showing an alert</string>
+    <string name="apps_security_options_title">Apps Security</string>
+    <string name="sms_outgoing_check_max_count_title">SMS Message Limit</string>
+    <string name="sms_outgoing_check_max_count_dialog">Messages per minute an app can send</string>
     <string name="sms_outgoing_check_max_count_default">30 per minute (default)</string>
     <string name="sms_outgoing_check_max_count_hundred">100 per minute</string>
     <string name="sms_outgoing_check_max_count_sixhundred">600 per minute</string>
 
     <!-- Torch Power button gestures -->
-    <string name="torch_power_button_gesture_title">Screen off power button torch</string>
+    <string name="torch_power_button_gesture_title">Power Button Flashlight</string>
     <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double tap power to toggle torch (will add a small delay to single tap)</string>
-    <string name="torch_power_button_gesture_lp">Long press power to toggle torch</string>
+    <string name="torch_power_button_gesture_dt">Double-tap Power (with small delay)</string>
+    <string name="torch_power_button_gesture_lp">Long-press Power (hold down)</string>
 
     <!-- Launch music player when headset is connected -->
-    <string name="headset_connect_player_title">Launch music app on headset connection</string>
+    <string name="headset_connect_player_title">Launch Music App Headset Connection</string>
     <string name="headset_connect_player_disabled">Disabled</string>
-    <string name="headset_connect_player_wired">When wired headset is plugged in</string>
-    <string name="headset_connect_player_bt_no_carkit">When BT headset (no carkit) is plugged in</string>
-    <string name="headset_connect_player_bt">When BT headset is plugged in</string>
-    <string name="headset_connect_player_both_no_carkit">When wired or BT headset (no carkit) is plugged in</string>
-    <string name="headset_connect_player_both">When wired or BT headset is plugged in</string>
+    <string name="headset_connect_player_wired">On Wired Headset</string>
+    <string name="headset_connect_player_bt_no_carkit">On BT Headset (No Carkit)</string>
+    <string name="headset_connect_player_bt">On BT Headset</string>
+    <string name="headset_connect_player_both_no_carkit">On Wired or BT Headset (No Carkit)</string>
+    <string name="headset_connect_player_both">On Wired or BT Headset</string>
 
     <!-- Battery light -->
-    <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
-    <string name="battery_light_low_blinking_title">Binking light on low battery</string>
+    <string name="battery_light_allow_on_dnd_title">DND Mode Battery Light</string>
+    <string name="battery_light_low_blinking_title">Low Battery Pulse</string>
     <string name="battery_light_cat">Battery light color when charging</string>
     <string name="battery_light_low_color">Low battery</string>
     <string name="battery_light_medium_color">Medium battery</string>
     <string name="battery_light_full_color">High battery</string>
+    <string name="battery_light_reallyfull_color">Full (100) battery</string>
 
     <!-- Toast icon -->
-    <string name="toast_icon_title">App\'s icon in toast</string>
+    <string name="toast_icon_title">Toast icon</string>
     <string name="toast_icon_summary">Display the app icon corresponding with the toast</string>
 </resources>
