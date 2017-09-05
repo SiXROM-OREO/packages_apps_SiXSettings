@@ -27,6 +27,12 @@
             android:summary="@string/toast_icon_summary"
             android:defaultValue="false" />
 
+       <com.six.settings.preferences.SystemSettingSwitchPreference
+            android:key="mtp_dirty_hack"
+            android:title="@string/enable_mtp_dirtyhack_title"
+            android:summary="@string/enable_mtp_dirtyhack_summary"
+            android:defaultValue="false" />
+
         <ListPreference
             android:key="sms_outgoing_check_max_count"
             android:title="@string/sms_outgoing_check_max_count_title"
