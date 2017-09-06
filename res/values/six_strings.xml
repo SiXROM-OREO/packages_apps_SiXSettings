@@ -102,4 +102,8 @@
     <!-- MTP Dirty Hack -->
     <string name="enable_mtp_dirtyhack_title">MTP instead Charging</string>
     <string name="enable_mtp_dirtyhack_summary">Enable MTP instead Charging after connect to PC</string>
+
+    <!-- QS footer warnings -->
+    <string name="qs_footer_warnings_title">QS footer warnings</string>
+    <string name="qs_footer_warnings_summary">Display a warning at bottom of QS panel when network is monitored by external apps or vpn</string>
 </resources>
