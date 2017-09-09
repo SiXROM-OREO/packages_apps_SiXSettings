@@ -14,22 +14,23 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- SiXROM fragments -->
+
+    <!-- SiXROM Fragments -->
     <string name="six_settings_title">Custom Tweaks and Mods</string>
     <string name="six_interface">Interface</string>
     <string name="six_lockscreen_settings_title">Lockscreen and Security</string>
     <string name="six_navigationbar_settings_title">Navigation Bar</string>
-    <string name="six_notification_drawer_settings_title">Notification and Tiles</string>
+    <string name="six_notification_drawer_settings_title">Notification and QS Tiles</string>
     <string name="six_statusbar_settings_title">Status Bar</string>
     <string name="six_sys">System</string>
     <string name="six_power_settings_title">Power</string>
     <string name="six_volumerocker_settings_title">Volume and Media</string>
     <string name="six_screen_settings_title">Display</string>
-    <string name="six_other_settings_title">Misc</string>
+    <string name="six_other_settings_title">Other</string>
     <string name="six_leds">LED Controls</string>
     <string name="six_battery_light_settings">Battery Charging Light</string>
     <string name="six_notification_light_settings">Notifications Light</string>
-    <string name="six_recent_settings_title">Recents panel</string>
+    <string name="six_recent_settings_title">Recents Apps Panel</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
@@ -42,9 +43,9 @@
     <string name="color_default">Default</string>
 
     <!-- DT2W -->
-    <string name="double_tap_sleep_navbar">Double-tap to Sleep</string>
+    <string name="double_tap_sleep_navbar">Double-Tap to Sleep</string>
     <string name="double_tap_sleep_navbar_summary">Double-tap on navbar empty areas to switch off the screen</string>
-    <string name="double_tap_sleep_lockscreen">Double-tap to sleep anywhere</string>
+    <string name="double_tap_sleep_lockscreen">Double-Tap to Sleep</string>
     <string name="double_tap_sleep_lockscreen_summary">Double-tap anywhere on the lockscreen to put the device to sleep</string>
 
     <!-- Volume rocker -->
@@ -64,12 +65,13 @@
     <string name="media_art_summary">Enable media cover art on the lockscreen</string>
 
     <!-- Sms security limit -->
-    <string name="apps_security_options_title">Apps Security</string>
+    <string name="apps_misc_options_title">Misc</string>
+    <string name="apps_security_options_title">System Tweaks</string>
     <string name="sms_outgoing_check_max_count_title">SMS Message Limit</string>
     <string name="sms_outgoing_check_max_count_dialog">Messages per minute an app can send</string>
-    <string name="sms_outgoing_check_max_count_default">30 per minute (default)</string>
-    <string name="sms_outgoing_check_max_count_hundred">100 per minute</string>
-    <string name="sms_outgoing_check_max_count_sixhundred">600 per minute</string>
+    <string name="sms_outgoing_check_max_count_default">30 per Minute (default)</string>
+    <string name="sms_outgoing_check_max_count_hundred">100 per Minute</string>
+    <string name="sms_outgoing_check_max_count_sixhundred">600 per Minute</string>
 
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">Power Button Flashlight</string>
@@ -87,41 +89,41 @@
     <string name="headset_connect_player_both">On Wired or BT Headset</string>
 
     <!-- Battery light -->
-    <string name="battery_light_allow_on_dnd_title">DND Mode Battery Light</string>
+    <string name="battery_light_allow_on_dnd_title">Do Not Disturb Mode Battery Light</string>
     <string name="battery_light_low_blinking_title">Low Battery Pulse</string>
-    <string name="battery_light_cat">Battery light color when charging</string>
-    <string name="battery_light_low_color">Low battery</string>
-    <string name="battery_light_medium_color">Medium battery</string>
-    <string name="battery_light_full_color">High battery</string>
-    <string name="battery_light_reallyfull_color">Full (100) battery</string>
+    <string name="battery_light_cat">Battery Light Color When Charging</string>
+    <string name="battery_light_low_color">Low Battery</string>
+    <string name="battery_light_medium_color">Medium Battery</string>
+    <string name="battery_light_full_color">High Battery</string>
+    <string name="battery_light_reallyfull_color">Full (100) Battery</string>
 
     <!-- Toast icon -->
-    <string name="toast_icon_title">Toast icon</string>
+    <string name="toast_icon_title">Toast Icon</string>
     <string name="toast_icon_summary">Display the app icon corresponding with the toast</string>
 
     <!-- MTP Dirty Hack -->
-    <string name="enable_mtp_dirtyhack_title">MTP instead Charging</string>
-    <string name="enable_mtp_dirtyhack_summary">Enable MTP instead Charging after connect to PC</string>
+    <string name="enable_mtp_dirtyhack_title">MTP vs Charging</string>
+    <string name="enable_mtp_dirtyhack_summary">Enable MTP instead Charging when connect to PC</string>
 
     <!-- QS footer warnings -->
-    <string name="qs_footer_warnings_title">QS footer warnings</string>
+    <string name="qs_footer_warnings_title">Quick Settings Footer Warnings</string>
     <string name="qs_footer_warnings_summary">Display a warning at bottom of QS panel when network is monitored by external apps or vpn</string>
 
     <!-- Statusbar -->
-    <string name="double_tap_sleep_gesture_title">Double-tap to sleep</string>
-    <string name="double_tap_sleep_gesture_summary">Double tap on the statusbar to put the device to sleep</string>
+    <string name="double_tap_sleep_gesture_title">Double-Tap to Sleep</string>
+    <string name="double_tap_sleep_gesture_summary">Double-tap on the statusbar to put the device to sleep</string>
 
     <!-- Recents panel settings -->
-    <string name="recents_title">Recents</string>
-    <string name="show_clear_all_recents_button_title">Clear all Button</string>
+    <string name="recents_title">Recents Panel</string>
+    <string name="show_clear_all_recents_button_title">Clear All Button</string>
     <string name="show_clear_all_recents_button_summary">Show clear all button</string>
-    <string name="recents_clear_all_location_title">Clear all location</string>
-    <string name="recents_clear_all_location_top_right">Top right</string>
-    <string name="recents_clear_all_location_top_left">Top left</string>
-    <string name="recents_clear_all_location_top_center">Top center</string>
-    <string name="recents_clear_all_location_bottom_right">Bottom right</string>
-    <string name="recents_clear_all_location_bottom_left">Bottom left</string>
-    <string name="recents_clear_all_location_bottom_center">Bottom center</string>
+    <string name="recents_clear_all_location_title">Clear All Location</string>
+    <string name="recents_clear_all_location_top_right">Top Right</string>
+    <string name="recents_clear_all_location_top_left">Top Left</string>
+    <string name="recents_clear_all_location_top_center">Top Center</string>
+    <string name="recents_clear_all_location_bottom_right">Bottom Right</string>
+    <string name="recents_clear_all_location_bottom_left">Bottom Left</string>
+    <string name="recents_clear_all_location_bottom_center">Bottom Center</string>
 
     <!-- Alarm blocker -->
     <string name="alarm_blocker">Alarm Blocker</string>
@@ -139,6 +141,8 @@
     <string name="qs_rows_landscape_title">Tiles Rows on Landscape</string>
     <string name="qs_columns_portrait_title">Tiles Columns on Portrait</string>
     <string name="qs_columns_landscape_title">Tiles Columns on Landscape</string>
+    <string name="qs_portrait_category_title">Portrait</string>
+    <string name="qs_landscape_category_title">Landscape</string>
 
     <!-- Heads up options -->
     <string name="less_boring_heads_up_title">Heads-Up Less Intrusive</string>

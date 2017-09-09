@@ -17,17 +17,14 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+   <PreferenceCategory
+        android:key="portrait_category"
+        android:title="@string/qs_portrait_category_title" >
+
     <com.six.settings.preferences.CustomSeekBarPreference
         android:key="qs_rows_portrait"
         android:title="@string/qs_rows_portrait_title"
         android:max="5"
-        settings:min="1"
-        settings:units="" />
-
-    <com.six.settings.preferences.CustomSeekBarPreference
-        android:key="qs_rows_landscape"
-        android:title="@string/qs_rows_landscape_title"
-        android:max="3"
         settings:min="1"
         settings:units="" />
 
@@ -37,6 +34,18 @@
         android:max="7"
         settings:min="1"
         settings:units="" />
+    </PreferenceCategory>
+
+   <PreferenceCategory
+        android:key="landscape_category"
+        android:title="@string/qs_landscape_category_title" >
+
+    <com.six.settings.preferences.CustomSeekBarPreference
+        android:key="qs_rows_landscape"
+        android:title="@string/qs_rows_landscape_title"
+        android:max="3"
+        settings:min="1"
+        settings:units="" />
 
     <com.six.settings.preferences.CustomSeekBarPreference
         android:key="qs_columns_landscape"
@@ -44,4 +53,6 @@
         android:max="9"
         settings:min="1"
         settings:units="" />
+    </PreferenceCategory>
+
 </PreferenceScreen>
