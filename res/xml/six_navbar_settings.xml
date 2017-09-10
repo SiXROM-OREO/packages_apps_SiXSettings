@@ -18,17 +18,23 @@
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <com.six.settings.preferences.SystemSettingSwitchPreference
+        android:key="navigation_bar_show"
+        android:title="@string/enable_navigation_bar_title"
+        android:summary="@string/enable_navigation_bar_summary"
+        android:defaultValue="true" />
+
+    <Preference
+        android:title="@string/navbar_buttons_title"
+        android:summary="@string/navbar_buttons_summary">
+        <intent android:action="android.intent.action.MAIN"
+        android:targetPackage="com.android.systemui"
+        android:targetClass="com.android.systemui.tuner.NavBarTunerActivity" />
+    </Preference>
+
+    <com.six.settings.preferences.SystemSettingSwitchPreference
         android:key="double_tap_sleep_navbar"
         android:title="@string/double_tap_sleep_navbar"
         android:summary="@string/double_tap_sleep_navbar_summary"
         android:defaultValue="true" />
-
-    <Preference
-            android:title="@string/navbar_buttons_title"
-            android:summary="@string/navbar_buttons_summary">
-        <intent android:action="android.intent.action.MAIN"
-                android:targetPackage="com.android.systemui"
-                android:targetClass="com.android.systemui.tuner.NavBarTunerActivity" />
-    </Preference>
 
 </PreferenceScreen>
