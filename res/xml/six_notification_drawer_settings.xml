@@ -21,6 +21,12 @@
         android:key="notifications_category"
         android:title="@string/notifications_category_title" >
 
+    <com.six.settings.preferences.SecureSettingSwitchPreference
+            android:key="qs_show_brightness"
+            android:title="@string/qs_brightness_slider_title"
+            android:summary="@string/qs_brightness_slider_summary"
+            android:defaultValue="true"/>
+
     <Preference
             android:key="qs_rows_columns"
             android:fragment="com.six.settings.QsRowsColumns"

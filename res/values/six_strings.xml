@@ -148,6 +148,27 @@
     <string name="less_boring_heads_up_title">Heads-Up Less Intrusive</string>
     <string name="less_boring_heads_up_summary">Show heads-up only for dialer or messaging app if they are not in foreground</string>
 
+    <!--SysUI tuner options -->
+    <string name="status_bar_icon_blacklist_title">Status Bar Icons</string>
+    <string name="status_bar_icon_blacklist_summary">Configure what icons are shown on status bar</string>
+    <string name="lockscreen_shortcuts_title">Lockscreen Shortcuts</string>
+    <string name="lockscreen_shortcuts_summary">Custom lockscreen bottom shortcuts</string>
+    <string name="navbar_buttons_title">Navigation Bar Icons</string>
+    <string name="navbar_buttons_summary">Navbar layout and custom icons</string>
+    <string name="qs_brightness_slider_title">Brightness Slider</string>
+    <string name="qs_brightness_slider_summary">Show the slider on quick settings panel</string>
+    <string name="vol_dnd_category_title">Do Not Disturb Mode</string>
+    <string name="volbtn_down_zen_title">Volume Down for Do Not Disturb</string>
+    <string name="volbtn_down_zen_summary">Allow volume down to enter do not disturb mode</string>
+    <string name="volbtn_up_zen_title">Volume Up in Do Not Disturb</string>
+    <string name="volbtn_up_zen_summary">Allow volume up to exit do not disturb mode</string>
+    <string name="vol_zen_title">Do Not Disturb Switch</string>
+    <string name="vol_zen_summary">Show do not disturb swith on volume panel</string>
+    <string name="doze_always_on_title">Ambient Display</string>
+    <string name="doze_always_on_summary">Ambient will be on when the proximity sensor is uncovered</string>
+    <string name="powern_notifications_title">Power Notifications</string>
+    <string name="powern_notifications_summary">Advanced notifications control on long-press</string>
     <string name="notifications_category_title">Notifications</string>
+    <string name="notifications_cat_title">Notifications</string>
     <string name="qs_cat_title">Quick Settings Panel</string>
 </resources>
