@@ -45,6 +45,11 @@
             android:title="@string/qs_rows_columns_title"
             android:summary="@string/qs_rows_columns_sum"/>
 
+    <com.six.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_tile_title_visibility"
+            android:title="@string/qs_tile_title_visibility_title"
+            android:defaultValue="true" />
+
     <com.six.settings.preferences.SecureSettingSwitchPreference
             android:key="qs_show_brightness"
             android:title="@string/qs_brightness_slider_title"

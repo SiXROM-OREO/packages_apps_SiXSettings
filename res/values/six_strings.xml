@@ -144,6 +144,7 @@
     <string name="qs_columns_landscape_title">Tiles columns on landscape</string>
     <string name="qs_portrait_category_title">Portrait</string>
     <string name="qs_landscape_category_title">Landscape</string>
+    <string name="qs_tile_title_visibility_title">Show tiles title</string>
 
     <!-- Heads up options -->
     <string name="less_boring_heads_up_title">Heads-up less intrusive</string>
