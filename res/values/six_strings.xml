@@ -184,4 +184,8 @@
     <!-- Lockscreen -->
     <string name="lockscreen_secure_options_title">Secure lockscreen options</string>
     <string name="lockscreen_options_title">Lockscreen options</string>
+
+    <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">Show net activity in statusbar</string>
+    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
 </resources>
