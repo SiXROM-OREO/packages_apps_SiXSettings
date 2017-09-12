@@ -16,21 +16,21 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- SiXROM Fragments -->
-    <string name="six_settings_title">Custom Tweaks and Mods</string>
+    <string name="six_settings_title">Custom tweaks &amp; mods</string>
     <string name="six_interface">Interface</string>
-    <string name="six_lockscreen_settings_title">Lockscreen and Security</string>
-    <string name="six_navigationbar_settings_title">Navigation Bar</string>
-    <string name="six_notification_drawer_settings_title">Notification and QS Tiles</string>
-    <string name="six_statusbar_settings_title">Status Bar</string>
+    <string name="six_lockscreen_settings_title">Lockscreen &amp; security</string>
+    <string name="six_navigationbar_settings_title">Navigation bar</string>
+    <string name="six_notification_drawer_settings_title">Notification &amp; tiles</string>
+    <string name="six_statusbar_settings_title">Status bar</string>
     <string name="six_sys">System</string>
     <string name="six_power_settings_title">Power</string>
-    <string name="six_volumerocker_settings_title">Volume and Media</string>
+    <string name="six_volumerocker_settings_title">Volume rocker &amp; media</string>
     <string name="six_screen_settings_title">Display</string>
     <string name="six_other_settings_title">Other</string>
-    <string name="six_leds">LED Controls</string>
-    <string name="six_battery_light_settings">Battery Charging Light</string>
-    <string name="six_notification_light_settings">Notifications Light</string>
-    <string name="six_recent_settings_title">Recents Apps Panel</string>
+    <string name="six_leds">LED controls</string>
+    <string name="six_battery_light_settings">Battery charging light</string>
+    <string name="six_notification_light_settings">Notifications light</string>
+    <string name="six_recent_settings_title">Recents &amp; expand</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
@@ -43,30 +43,30 @@
     <string name="color_default">Default</string>
 
     <!-- DT2W -->
-    <string name="double_tap_sleep_navbar">Double-Tap to Sleep</string>
-    <string name="double_tap_sleep_navbar_summary">Double-tap on navbar empty areas to switch off the screen</string>
-    <string name="double_tap_sleep_lockscreen">Double-Tap to Sleep</string>
-    <string name="double_tap_sleep_lockscreen_summary">Double-tap anywhere on the lockscreen to put the device to sleep</string>
+    <string name="double_tap_sleep_navbar">Double-tap to sleep</string>
+    <string name="double_tap_sleep_navbar_summary">Double tap on navbar empty areas to switch off the screen</string>
+    <string name="double_tap_sleep_lockscreen">Double-tap to sleep anywhere</string>
+    <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreen to put the device to sleep</string>
 
     <!-- Volume rocker -->
-    <string name="swap_volume_buttons">Volume Button Swap</string>
+    <string name="swap_volume_buttons">Volume button swap</string>
     <string name="swap_volume_buttons_sum">Adjust volume buttons action based on current orientation</string>
-    <string name="volume_keys_control_media_stream_title">Volume Keys Control</string>
-    <string name="volume_keys_control_media_stream_summary">Volume panel will show media volume slider by default</string>
-    <string name="volume_rocker_music_controls_title">Playback Control</string>
-    <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
+    <string name="volume_keys_control_media_stream_title">Volume keys control media volume</string>
+    <string name="volume_keys_control_media_stream_summary">Force volume keys to control media stream</string>
+    <string name="volume_rocker_music_controls_title">Music control</string>
+    <string name="volume_rocker_music_controls_summary">With screen off, long pressing the volume keys will seek tracks</string>
 
     <!-- Notifications -->
-    <string name="status_bar_quick_qs_pulldown">Quick Pulldown</string>
-    <string name="status_bar_quick_qs_pulldown_sum">Right edge of the statusbar pulls down Quick Settings</string>
+    <string name="status_bar_quick_qs_pulldown">Quick pulldown</string>
+    <string name="status_bar_quick_qs_pulldown_sum">Right edge of the statusbar pulls down quick settings</string>
 
     <!-- Media art -->
-    <string name="media_art_title">Media Cover Art</string>
+    <string name="media_art_title">Media cover art</string>
     <string name="media_art_summary">Enable media cover art on the lockscreen</string>
 
     <!-- Sms security limit -->
     <string name="apps_misc_options_title">Misc</string>
-    <string name="apps_security_options_title">System Tweaks</string>
+    <string name="apps_security_options_title">System tweaks</string>
     <string name="sms_outgoing_check_max_count_title">SMS Message Limit</string>
     <string name="sms_outgoing_check_max_count_dialog">Messages per minute an app can send</string>
     <string name="sms_outgoing_check_max_count_default">30 per Minute (default)</string>
@@ -74,59 +74,59 @@
     <string name="sms_outgoing_check_max_count_sixhundred">600 per Minute</string>
 
     <!-- Torch Power button gestures -->
-    <string name="torch_power_button_gesture_title">Power Button Flashlight</string>
+    <string name="torch_power_button_gesture_title">Power button flashlight</string>
     <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double-tap Power (with small delay)</string>
-    <string name="torch_power_button_gesture_lp">Long-press Power (hold down)</string>
+    <string name="torch_power_button_gesture_dt">Double-tap power (with small delay)</string>
+    <string name="torch_power_button_gesture_lp">Long-press power (hold down)</string>
 
     <!-- Launch music player when headset is connected -->
-    <string name="headset_connect_player_title">Launch Music App Headset Connection</string>
+    <string name="headset_connect_player_title">Launch music app on headset connection</string>
     <string name="headset_connect_player_disabled">Disabled</string>
-    <string name="headset_connect_player_wired">On Wired Headset</string>
-    <string name="headset_connect_player_bt_no_carkit">On BT Headset (No Carkit)</string>
-    <string name="headset_connect_player_bt">On BT Headset</string>
-    <string name="headset_connect_player_both_no_carkit">On Wired or BT Headset (No Carkit)</string>
-    <string name="headset_connect_player_both">On Wired or BT Headset</string>
+    <string name="headset_connect_player_wired">On wired headset</string>
+    <string name="headset_connect_player_bt_no_carkit">On BT headset (No carkit)</string>
+    <string name="headset_connect_player_bt">On BT headset</string>
+    <string name="headset_connect_player_both_no_carkit">On wired or BT headset (No carkit)</string>
+    <string name="headset_connect_player_both">On wired or BT headset</string>
 
     <!-- Battery light -->
-    <string name="battery_light_allow_on_dnd_title">Do Not Disturb Mode Battery Light</string>
-    <string name="battery_light_low_blinking_title">Low Battery Pulse</string>
-    <string name="battery_light_cat">Battery Light Color When Charging</string>
-    <string name="battery_light_low_color">Low Battery</string>
-    <string name="battery_light_medium_color">Medium Battery</string>
-    <string name="battery_light_full_color">High Battery</string>
-    <string name="battery_light_reallyfull_color">Full (100) Battery</string>
+    <string name="battery_light_allow_on_dnd_title">Lights in do not disturb mode</string>
+    <string name="battery_light_low_blinking_title">Low battery pulse</string>
+    <string name="battery_light_cat">Battery Light color when charging</string>
+    <string name="battery_light_low_color">Low battery</string>
+    <string name="battery_light_medium_color">Medium battery</string>
+    <string name="battery_light_full_color">High battery</string>
+    <string name="battery_light_reallyfull_color">Full (100) battery</string>
 
     <!-- Toast icon -->
-    <string name="toast_icon_title">Toast Icon</string>
+    <string name="toast_icon_title">Toast icon</string>
     <string name="toast_icon_summary">Display the app icon corresponding with the toast</string>
 
     <!-- MTP Dirty Hack -->
     <string name="enable_mtp_dirtyhack_title">MTP vs Charging</string>
-    <string name="enable_mtp_dirtyhack_summary">Enable MTP instead Charging when connect to PC</string>
+    <string name="enable_mtp_dirtyhack_summary">Enable MTP instead charging when connect to PC</string>
 
     <!-- QS footer warnings -->
-    <string name="qs_footer_warnings_title">Quick Settings Footer Warnings</string>
-    <string name="qs_footer_warnings_summary">Display a warning at bottom of QS panel when network is monitored by external apps or vpn</string>
+    <string name="qs_footer_warnings_title">Quick settings footer warnings</string>
+    <string name="qs_footer_warnings_summary">Display a warning at bottom of panel when network is monitored by external apps or vpn</string>
 
     <!-- Statusbar -->
-    <string name="double_tap_sleep_gesture_title">Double-Tap to Sleep</string>
-    <string name="double_tap_sleep_gesture_summary">Double-tap on the statusbar to put the device to sleep</string>
+    <string name="double_tap_sleep_gesture_title">Double-tap to sleep</string>
+    <string name="double_tap_sleep_gesture_summary">Double tap on the statusbar to put the device to sleep</string>
 
     <!-- Recents panel settings -->
     <string name="recents_title">Recents Panel</string>
-    <string name="show_clear_all_recents_button_title">Clear All Button</string>
+    <string name="show_clear_all_recents_button_title">Clear all button</string>
     <string name="show_clear_all_recents_button_summary">Show clear all button</string>
-    <string name="recents_clear_all_location_title">Clear All Location</string>
-    <string name="recents_clear_all_location_top_right">Top Right</string>
-    <string name="recents_clear_all_location_top_left">Top Left</string>
-    <string name="recents_clear_all_location_top_center">Top Center</string>
-    <string name="recents_clear_all_location_bottom_right">Bottom Right</string>
-    <string name="recents_clear_all_location_bottom_left">Bottom Left</string>
-    <string name="recents_clear_all_location_bottom_center">Bottom Center</string>
+    <string name="recents_clear_all_location_title">Clear all location</string>
+    <string name="recents_clear_all_location_top_right">Top right</string>
+    <string name="recents_clear_all_location_top_left">Top left</string>
+    <string name="recents_clear_all_location_top_center">Top center</string>
+    <string name="recents_clear_all_location_bottom_right">Bottom right</string>
+    <string name="recents_clear_all_location_bottom_left">Bottom left</string>
+    <string name="recents_clear_all_location_bottom_center">Bottom center</string>
 
     <!-- Alarm blocker -->
-    <string name="alarm_blocker">Alarm Blocker</string>
+    <string name="alarm_blocker">Alarm blocker</string>
     <string name="alarm_blocker_title">Enable</string>
     <string name="alarm_blocker_summary">Block alarms while screen off</string>
     <string name="alarm_blocker_save">Save</string>
@@ -136,41 +136,42 @@
     <string name="alarm_blocker_warning">Blocking alarms have the potential to cause instability, crashes or data loss.</string>
 
     <!-- QS rows and columns -->
-    <string name="qs_rows_columns_title">Quick Tiles Rows and Columns</string>
-    <string name="qs_rows_portrait_title">Tiles Rows on Portrait</string>
-    <string name="qs_rows_landscape_title">Tiles Rows on Landscape</string>
-    <string name="qs_columns_portrait_title">Tiles Columns on Portrait</string>
-    <string name="qs_columns_landscape_title">Tiles Columns on Landscape</string>
+    <string name="qs_rows_columns_title">Quick tiles rows and columns</string>
+    <string name="qs_rows_columns_sum">Change the amount of rows and columns in panel</string>
+    <string name="qs_rows_portrait_title">Tiles rows on portrait</string>
+    <string name="qs_rows_landscape_title">Tiles rows on landscape</string>
+    <string name="qs_columns_portrait_title">Tiles columns on portrait</string>
+    <string name="qs_columns_landscape_title">Tiles columns on landscape</string>
     <string name="qs_portrait_category_title">Portrait</string>
     <string name="qs_landscape_category_title">Landscape</string>
 
     <!-- Heads up options -->
-    <string name="less_boring_heads_up_title">Heads-Up Less Intrusive</string>
+    <string name="less_boring_heads_up_title">Heads-up less intrusive</string>
     <string name="less_boring_heads_up_summary">Show heads-up only for dialer or messaging app if they are not in foreground</string>
 
     <!--SysUI tuner options -->
-    <string name="status_bar_icon_blacklist_title">Status Bar Icons</string>
+    <string name="status_bar_icon_blacklist_title">Status bar icons</string>
     <string name="status_bar_icon_blacklist_summary">Configure what icons are shown on status bar</string>
-    <string name="lockscreen_shortcuts_title">Lockscreen Shortcuts</string>
-    <string name="lockscreen_shortcuts_summary">Custom lockscreen bottom shortcuts</string>
-    <string name="navbar_buttons_title">Navigation Bar Icons</string>
+    <string name="lockscreen_shortcuts_title">Lockscreen shortcuts</string>
+    <string name="lockscreen_shortcuts_summary">Customize the lockscreen bottom shortcuts</string>
+    <string name="navbar_buttons_title">Navigation bar icons</string>
     <string name="navbar_buttons_summary">Navbar layout and custom icons</string>
-    <string name="qs_brightness_slider_title">Brightness Slider</string>
-    <string name="qs_brightness_slider_summary">Show the slider on quick settings panel</string>
-    <string name="vol_dnd_category_title">Do Not Disturb Mode</string>
-    <string name="volbtn_down_zen_title">Volume Down for Do Not Disturb</string>
-    <string name="volbtn_down_zen_summary">Allow volume down to enter do not disturb mode</string>
-    <string name="volbtn_up_zen_title">Volume Up in Do Not Disturb</string>
-    <string name="volbtn_up_zen_summary">Allow volume up to exit do not disturb mode</string>
-    <string name="vol_zen_title">Do Not Disturb Switch</string>
+    <string name="qs_brightness_slider_title">Brightness slider</string>
+    <string name="qs_brightness_slider_summary">Show brightness slider on quick settings panel</string>
+    <string name="vol_dnd_category_title">Do not disturb mode</string>
+    <string name="volbtn_down_zen_title">Volume down for do not disturb</string>
+    <string name="volbtn_down_zen_summary">allow volume down to enter do not disturb mode</string>
+    <string name="volbtn_up_zen_title">Volume up in do not disturb</string>
+    <string name="volbtn_up_zen_summary">allow volume up to exit do not disturb mode</string>
+    <string name="vol_zen_title">Do not disturb switch</string>
     <string name="vol_zen_summary">Show do not disturb swith on volume panel</string>
-    <string name="doze_always_on_title">Ambient Display</string>
+    <string name="doze_always_on_title">Ambient display</string>
     <string name="doze_always_on_summary">Ambient will be on when the proximity sensor is uncovered</string>
-    <string name="powern_notifications_title">Power Notifications</string>
+    <string name="powern_notifications_title">Power notifications</string>
     <string name="powern_notifications_summary">Advanced notifications control on long-press</string>
     <string name="notifications_category_title">Notifications</string>
     <string name="notifications_cat_title">Notifications</string>
-    <string name="qs_cat_title">Quick Settings Panel</string>
+    <string name="qs_cat_title">Quick settings panel</string>
 
     <!-- Pin scramble -->
     <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
@@ -179,4 +180,8 @@
     <!-- Power menu on lockscreen -->
     <string name="lockscreen_enable_power_menu_title">Show power menu lock screen</string>
     <string name="lockscreen_enable_power_menu_summary">This option will only disable the power menu on secure lock screens</string>
+
+    <!-- Lockscreen -->
+    <string name="lockscreen_secure_options_title">Secure lockscreen options</string>
+    <string name="lockscreen_options_title">Lockscreen options</string>
 </resources>
