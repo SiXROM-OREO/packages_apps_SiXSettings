@@ -26,6 +26,11 @@
              android:fragment="com.six.settings.AlarmBlocker"
              android:title="@string/alarm_blocker" />
 
+       <Preference
+             android:key="wakelock_blocker"
+             android:fragment="com.six.settings.WakeLockBlocker"
+             android:title="@string/wakelock_blocker_title" />
+
         <ListPreference
             android:key="sms_outgoing_check_max_count"
             android:title="@string/sms_outgoing_check_max_count_title"
