@@ -30,7 +30,7 @@
     <string name="six_leds">LED controls</string>
     <string name="six_battery_light_settings">Battery charging light</string>
     <string name="six_notification_light_settings">Notifications light</string>
-    <string name="six_recent_settings_title">Recents &amp; expand</string>
+    <string name="six_recent_settings_title">Desktop &amp; Recents</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
@@ -179,15 +179,16 @@
     <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
 
     <!-- Power menu on lockscreen -->
-    <string name="lockscreen_enable_power_menu_title">Show power menu lock screen</string>
-    <string name="lockscreen_enable_power_menu_summary">This option will only disable the power menu on secure lock screens</string>
+    <string name="lockscreen_enable_power_menu_title">Show power menu secure lockscreen</string>
+    <string name="lockscreen_enable_power_menu_summary">This option will allow the power menu on secure lockscreen</string>
 
     <!-- Lockscreen -->
     <string name="lockscreen_secure_options_title">Secure lockscreen options</string>
     <string name="lockscreen_options_title">Lockscreen options</string>
 
     <!-- Statusbar net monitor -->
-    <string name="network_traffic_state_title">Show net activity in statusbar</string>
+    <string name="network_traffic_cat">Network traffic</string>
+    <string name="network_traffic_state_title">Show net activity in status bar</string>
     <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
 
     <!-- Wake on Plug -->
@@ -210,5 +211,5 @@
 
     <!-- Brightness icon-->
     <string name="brightness_icon_title">Brightness icon </string>
-    <string name="brightness_icon_summary">Show a brightness icon to the left of the brighness slider to adjust auto-brightness</string>
+    <string name="brightness_icon_summary">Show a brightness icon to the left of the slider</string>
 </resources>

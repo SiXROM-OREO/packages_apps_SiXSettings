@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2017 The ABC rom
-
+     Copyright (C) 2017 SiXROM
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -17,35 +17,35 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <ListPreference
+   <com.six.settings.preferences.SystemSettingSwitchPreference
+        android:key="volume_button_music_control"
+        android:title="@string/volume_rocker_music_controls_title"
+        android:summary="@string/volume_rocker_music_controls_summary"
+        android:defaultValue="false" />
+
+   <ListPreference
         android:key="ringtone_focus_mode"
         android:title="@string/ringtone_focus_mode_title"
         android:entries="@array/ringtone_focus_mode_entries"
         android:entryValues="@array/ringtone_focus_mode_values" />
 
+   <ListPreference
+        android:key="headset_connect_player"
+        android:title="@string/headset_connect_player_title"
+        android:entries="@array/headset_connect_player_entries"
+        android:entryValues="@array/headset_connect_player_values" />
+
     <com.six.settings.preferences.SystemSettingSwitchPreference
         android:key="swap_volume_buttons"
         android:title="@string/swap_volume_buttons"
         android:summary="@string/swap_volume_buttons_sum"
-        android:defaultValue="true" />
+        android:defaultValue="false" />
 
     <com.six.settings.preferences.SystemSettingSwitchPreference
         android:key="volume_keys_control_media_stream"
         android:title="@string/volume_keys_control_media_stream_title"
         android:summary="@string/volume_keys_control_media_stream_summary"
         android:defaultValue="false" />
-
-    <com.six.settings.preferences.SystemSettingSwitchPreference
-        android:key="volume_button_music_control"
-        android:title="@string/volume_rocker_music_controls_title"
-        android:summary="@string/volume_rocker_music_controls_summary"
-        android:defaultValue="true" />
-
-    <ListPreference
-        android:key="headset_connect_player"
-        android:title="@string/headset_connect_player_title"
-        android:entries="@array/headset_connect_player_entries"
-        android:entryValues="@array/headset_connect_player_values" />
 
   <PreferenceCategory
         android:key="vol_dnd_category"
@@ -55,13 +55,13 @@
             android:key="sysui_volume_down_silent"
             android:title="@string/volbtn_down_zen_title"
             android:summary="@string/volbtn_down_zen_summary"
-            android:defaultValue="true"/>
+            android:defaultValue="false"/>
 
         <com.six.settings.preferences.SecureSettingSwitchPreference
             android:key="sysui_volume_up_silent"
             android:title="@string/volbtn_up_zen_title"
             android:summary="@string/volbtn_up_zen_summary"
-            android:defaultValue="true" />
+            android:defaultValue="false" />
 
         <!-- <com.six.settings.preferences.SecureSettingSwitchPreference
             android:key="sysui_show_full_zen"

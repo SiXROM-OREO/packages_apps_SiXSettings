@@ -31,6 +31,10 @@
         android:summary="@string/double_tap_sleep_gesture_summary"
         android:defaultValue="true" />
 
+   <PreferenceCategory
+        android:key="net_traffic_cat"
+        android:title="@string/network_traffic_cat" >
+
     <com.six.settings.preferences.SystemSettingSwitchPreference
         android:key="network_traffic_state"
         android:title="@string/network_traffic_state_title"
@@ -42,5 +46,7 @@
         android:max="10"
         settings:min="0"
         settings:units="" />
+
+   </PreferenceCategory>
 
 </PreferenceScreen>

@@ -24,11 +24,13 @@
        <Preference
              android:id="@+id/alarm_blocker"
              android:fragment="com.six.settings.AlarmBlocker"
+             android:summary="@string/alarm_blocker_summary"
              android:title="@string/alarm_blocker" />
 
        <Preference
              android:key="wakelock_blocker"
              android:fragment="com.six.settings.WakeLockBlocker"
+             android:summary="@string/wakelock_blocker_summary"
              android:title="@string/wakelock_blocker_title" />
 
         <ListPreference

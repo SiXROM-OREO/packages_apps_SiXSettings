@@ -77,7 +77,7 @@
                 android:fragment="com.six.settings.BatteryLightSettings"
                 android:title="@string/six_battery_light_settings" />
 
-        <!--<Preference
+       <!-- <Preference 
                 android:key="six_notification_light"
                 android:fragment="com.six.settings.NotificationLightSettings"
                 android:title="@string/six_notification_light_settings" /> -->
