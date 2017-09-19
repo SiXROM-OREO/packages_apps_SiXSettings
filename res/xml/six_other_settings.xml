@@ -47,6 +47,12 @@
         android:key="apps_misc_other"
         android:title="@string/apps_misc_options_title" >
 
+      <com.six.settings.preferences.GlobalSettingSwitchPreference
+            android:key="show_cpu_overlay"
+            android:title="@string/show_cpu_info"
+            android:summary="@string/show_cpu_info_summary" 
+            android:defaultValue="false" />
+
       <com.six.settings.preferences.SystemSettingSwitchPreference
             android:key="toast_icon"
             android:title="@string/toast_icon_title"
