@@ -31,6 +31,7 @@
     <string name="six_battery_light_settings">Battery charging light</string>
     <string name="six_notification_light_settings">Notifications light</string>
     <string name="six_recent_settings_title">Desktop &amp; Recents</string>
+    <string name="animations">Animations</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
