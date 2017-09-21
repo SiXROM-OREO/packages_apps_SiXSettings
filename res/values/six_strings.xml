@@ -32,7 +32,6 @@
     <string name="six_notification_light_settings">Notifications light</string>
     <string name="six_recent_settings_title">Desktop &amp; Recents</string>
     <string name="six_animations">Animations</string>
-    <string name="system_animations">System animations</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
@@ -138,7 +137,8 @@
     <string name="alarm_blocker_warning">Blocking alarms have the potential to cause instability, crashes or data loss.</string>
 
     <!-- QS rows and columns -->
-    <string name="qs_rows_columns_title">Quick tiles rows and columns</string>
+    <string name="qs_tiles_cat_title">Quick Tiles</string>
+    <string name="qs_rows_columns_title">QS tiles rows and columns</string>
     <string name="qs_rows_columns_sum">Change the amount of rows and columns in panel</string>
     <string name="qs_rows_portrait_title">Tiles rows on portrait</string>
     <string name="qs_rows_landscape_title">Tiles rows on landscape</string>
@@ -216,6 +216,7 @@
     <string name="brightness_icon_summary">Show a brightness icon to the left of the slider</string>
 
     <!-- AOKP custom system animations -->
+    <string name="system_animations">System animations</string>
     <string name="animation_title">Animations</string>  
     <string name="system_animation_title">System animations</string>
     <string name="activity_open_title">Activity open animation</string>

@@ -23,11 +23,11 @@
         android:entries="@array/torch_power_button_gesture_entries"
         android:entryValues="@array/torch_power_button_gesture_values" />
 
-    <com.six.settings.preferences.SecureSettingSwitchPreference
+    <!-- <com.six.settings.preferences.SecureSettingSwitchPreference
         android:key="doze_always_on"
         android:title="@string/doze_always_on_title"
         android:summary="@string/doze_always_on_summary"
-        android:defaultValue="false" />
+        android:defaultValue="false" /> -->
 
     <com.six.settings.preferences.SystemSettingSwitchPreference
         android:key="wake_when_plugged_or_unplugged"

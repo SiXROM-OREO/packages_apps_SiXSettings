@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2017 The ABC rom
-
+     Copyright (C) 2017 SiX ROM
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -21,55 +21,56 @@
         android:key="six_interface"
         android:title="@string/six_interface">
 
-        <Preference
-            android:key="six_lockscreen_settings"
-            android:fragment="com.six.settings.LockScreenSettings"
-            android:title="@string/six_lockscreen_settings_title"/>
-
-        <Preference
-            android:key="six_notification_drawer_settings"
-            android:fragment="com.six.settings.NotificationDrawerSettings"
-            android:title="@string/six_notification_drawer_settings_title"/>
-
-        <Preference
-            android:key="six_statusbar_settings"
-            android:fragment="com.six.settings.StatusBarSettings"
-            android:title="@string/six_statusbar_settings_title"/>
-
-        <Preference
-            android:key="navigation_options"
-            android:fragment="com.six.settings.NavbarSettings"
-            android:title="@string/six_navigationbar_settings_title" />
-
-        <Preference
-            android:key="six_recent_settings"
-            android:fragment="com.six.settings.RecentsSettings"
-        android:title="@string/six_recent_settings_title"/>
+    <Preference
+        android:key="six_lockscreen_settings"
+        android:fragment="com.six.settings.LockScreenSettings"
+        android:title="@string/six_lockscreen_settings_title"/>
 
     <Preference
-        android:key="six_animations"
-        android:title="@string/six_animations"
-        android:fragment="com.six.settings.AnimationSettings" />
+        android:key="six_notification_drawer_settings"
+        android:fragment="com.six.settings.NotificationDrawerSettings"
+        android:title="@string/six_notification_drawer_settings_title"/>
+
+    <Preference
+        android:key="six_statusbar_settings"
+        android:fragment="com.six.settings.StatusBarSettings"
+        android:title="@string/six_statusbar_settings_title"/>
+
+    <Preference
+        android:key="navigation_options"
+        android:fragment="com.six.settings.NavbarSettings"
+        android:title="@string/six_navigationbar_settings_title" />
+
+    <Preference
+        android:key="six_recent_settings"
+        android:fragment="com.six.settings.RecentsSettings"
+        android:title="@string/six_recent_settings_title"/>
+
     </PreferenceCategory>
 
     <PreferenceCategory
         android:key="six_sys"
         android:title="@string/six_sys">
 
-        <Preference
-            android:key="six_power_settings"
-            android:fragment="com.six.settings.PowerSettings"
+    <Preference
+        android:key="six_animations"
+        android:title="@string/six_animations"
+        android:fragment="com.six.settings.AnimationSettings" />
+
+    <Preference
+        android:key="six_power_settings"
+        android:fragment="com.six.settings.PowerSettings"
         android:title="@string/six_power_settings_title"/>
 
-        <Preference
-            android:key="six_volumerocker_settings"
-            android:fragment="com.six.settings.VolumeRockerSettings"
-            android:title="@string/six_volumerocker_settings_title"/>
+     <Preference
+        android:key="six_volumerocker_settings"
+        android:fragment="com.six.settings.VolumeRockerSettings"
+        android:title="@string/six_volumerocker_settings_title"/>
 
-        <Preference
-            android:key="six_other_settings"
-            android:fragment="com.six.settings.OtherSettings"
-            android:title="@string/six_other_settings_title"/>
+     <Preference
+        android:key="six_other_settings"
+        android:fragment="com.six.settings.OtherSettings"
+        android:title="@string/six_other_settings_title"/>
 
     </PreferenceCategory>
 
@@ -77,15 +78,16 @@
         android:key="six_leds"
         android:title="@string/six_leds" >
 
-        <Preference
-                android:key="six_charging_light"
-                android:fragment="com.six.settings.BatteryLightSettings"
-                android:title="@string/six_battery_light_settings" />
+    <Preference
+        android:key="six_charging_light"
+        android:fragment="com.six.settings.BatteryLightSettings"
+        android:title="@string/six_battery_light_settings" />
 
-       <Preference
-            android:key="six_notification_light"
-            android:fragment="com.android.settings.applications.NotificationApps"
-            android:title="@string/six_notification_light_settings" />
+    <Preference
+        android:key="six_notification_light"
+        android:fragment="com.android.settings.applications.NotificationApps"
+        android:title="@string/six_notification_light_settings" />
 
     </PreferenceCategory>
+
 </PreferenceScreen>

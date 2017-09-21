@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2017 The ABC rom
-
+     Copyright (C) 2017 SiX ROM
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -21,49 +21,49 @@
         android:key="apps_security"
         android:title="@string/apps_security_options_title" >
 
-       <Preference
-             android:id="@+id/alarm_blocker"
-             android:fragment="com.six.settings.AlarmBlocker"
-             android:summary="@string/alarm_blocker_summary"
-             android:title="@string/alarm_blocker" />
+    <Preference
+        android:id="@+id/alarm_blocker"
+        android:fragment="com.six.settings.AlarmBlocker"
+        android:summary="@string/alarm_blocker_summary"
+        android:title="@string/alarm_blocker" />
 
-       <Preference
-             android:key="wakelock_blocker"
-             android:fragment="com.six.settings.WakeLockBlocker"
-             android:summary="@string/wakelock_blocker_summary"
-             android:title="@string/wakelock_blocker_title" />
+    <Preference
+        android:key="wakelock_blocker"
+        android:fragment="com.six.settings.WakeLockBlocker"
+        android:summary="@string/wakelock_blocker_summary"
+        android:title="@string/wakelock_blocker_title" />
 
-        <ListPreference
-            android:key="sms_outgoing_check_max_count"
-            android:title="@string/sms_outgoing_check_max_count_title"
-            android:dialogTitle="@string/sms_outgoing_check_max_count_dialog"
-            android:entries="@array/sms_outgoing_check_max_count_entries"
-            android:entryValues="@array/sms_outgoing_check_max_count_values"
-            android:summary="%s"
-            android:defaultValue="30" />
+    <ListPreference
+        android:key="sms_outgoing_check_max_count"
+        android:title="@string/sms_outgoing_check_max_count_title"
+        android:dialogTitle="@string/sms_outgoing_check_max_count_dialog"
+        android:entries="@array/sms_outgoing_check_max_count_entries"
+        android:entryValues="@array/sms_outgoing_check_max_count_values"
+        android:summary="%s"
+        android:defaultValue="30" />
     </PreferenceCategory>
 
-<PreferenceCategory
+    <PreferenceCategory
         android:key="apps_misc_other"
         android:title="@string/apps_misc_options_title" >
 
-      <com.six.settings.preferences.GlobalSettingSwitchPreference
-            android:key="show_cpu_overlay"
-            android:title="@string/show_cpu_info"
-            android:summary="@string/show_cpu_info_summary" 
-            android:defaultValue="false" />
+    <com.six.settings.preferences.GlobalSettingSwitchPreference
+         android:key="show_cpu_overlay"
+         android:title="@string/show_cpu_info"
+         android:summary="@string/show_cpu_info_summary" 
+         android:defaultValue="false" />
 
-      <com.six.settings.preferences.SystemSettingSwitchPreference
-            android:key="toast_icon"
-            android:title="@string/toast_icon_title"
-            android:summary="@string/toast_icon_summary"
-            android:defaultValue="true" />
+    <com.six.settings.preferences.SystemSettingSwitchPreference
+         android:key="toast_icon"
+         android:title="@string/toast_icon_title"
+         android:summary="@string/toast_icon_summary"
+         android:defaultValue="true" />
 
-       <com.six.settings.preferences.SystemSettingSwitchPreference
-            android:key="mtp_dirty_hack"
-            android:title="@string/enable_mtp_dirtyhack_title"
-            android:summary="@string/enable_mtp_dirtyhack_summary"
-            android:defaultValue="true" />
+    <com.six.settings.preferences.SystemSettingSwitchPreference
+         android:key="mtp_dirty_hack"
+         android:title="@string/enable_mtp_dirtyhack_title"
+         android:summary="@string/enable_mtp_dirtyhack_summary"
+         android:defaultValue="true" />
     </PreferenceCategory>
 
 </PreferenceScreen>

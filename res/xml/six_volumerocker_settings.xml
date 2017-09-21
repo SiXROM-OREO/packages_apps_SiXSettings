@@ -21,7 +21,7 @@
         android:key="volume_button_music_control"
         android:title="@string/volume_rocker_music_controls_title"
         android:summary="@string/volume_rocker_music_controls_summary"
-        android:defaultValue="false" />
+        android:defaultValue="true" />
 
    <ListPreference
         android:key="ringtone_focus_mode"
@@ -39,35 +39,35 @@
         android:key="swap_volume_buttons"
         android:title="@string/swap_volume_buttons"
         android:summary="@string/swap_volume_buttons_sum"
-        android:defaultValue="false" />
+        android:defaultValue="true" />
 
     <com.six.settings.preferences.SystemSettingSwitchPreference
         android:key="volume_keys_control_media_stream"
         android:title="@string/volume_keys_control_media_stream_title"
         android:summary="@string/volume_keys_control_media_stream_summary"
-        android:defaultValue="false" />
+        android:defaultValue="true" />
 
-  <PreferenceCategory
+    <PreferenceCategory
         android:key="vol_dnd_category"
         android:title="@string/vol_dnd_category_title" >
 
-        <com.six.settings.preferences.SecureSettingSwitchPreference
-            android:key="sysui_volume_down_silent"
-            android:title="@string/volbtn_down_zen_title"
-            android:summary="@string/volbtn_down_zen_summary"
-            android:defaultValue="false"/>
+    <com.six.settings.preferences.SecureSettingSwitchPreference
+        android:key="sysui_volume_down_silent"
+        android:title="@string/volbtn_down_zen_title"
+        android:summary="@string/volbtn_down_zen_summary"
+        android:defaultValue="false"/>
 
-        <com.six.settings.preferences.SecureSettingSwitchPreference
-            android:key="sysui_volume_up_silent"
-            android:title="@string/volbtn_up_zen_title"
-            android:summary="@string/volbtn_up_zen_summary"
-            android:defaultValue="false" />
+    <com.six.settings.preferences.SecureSettingSwitchPreference
+        android:key="sysui_volume_up_silent"
+        android:title="@string/volbtn_up_zen_title"
+        android:summary="@string/volbtn_up_zen_summary"
+        android:defaultValue="false" />
 
-        <!-- <com.six.settings.preferences.SecureSettingSwitchPreference
-            android:key="sysui_show_full_zen"
-            android:title="@string/vol_zen_title"
-            android:summary="@string/vol_zen_summary"
-            android:defaultValue="false"/> -->
+<!-- <com.six.settings.preferences.SecureSettingSwitchPreference
+        android:key="sysui_show_full_zen"
+        android:title="@string/vol_zen_title"
+        android:summary="@string/vol_zen_summary"
+        android:defaultValue="false"/> -->
 
     </PreferenceCategory>
 
