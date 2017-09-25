@@ -23,6 +23,12 @@
         android:summary="@string/enable_navigation_bar_summary"
         android:defaultValue="true" />
 
+    <com.six.settings.preferences.SecureSettingSwitchPreference
+        android:key="kill_app_longpress_back"
+        android:title="@string/kill_app_longpress_back"
+        android:summary="@string/kill_app_longpress_back_summary"
+        android:defaultValue="true" />
+
     <Preference
         android:title="@string/navbar_buttons_title"
         android:summary="@string/navbar_buttons_summary">
