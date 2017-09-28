@@ -20,7 +20,7 @@
     <string name="six_interface">Interface</string>
     <string name="six_lockscreen_settings_title">Lockscreen &amp; security</string>
     <string name="six_navigationbar_settings_title">Navigation bar</string>
-    <string name="six_notification_drawer_settings_title">Notification &amp; tiles</string>
+    <string name="six_notification_drawer_settings_title">Notification &amp; QS tiles</string>
     <string name="six_statusbar_settings_title">Status bar</string>
     <string name="six_sys">System</string>
     <string name="six_power_settings_title">Power</string>
@@ -138,7 +138,7 @@
 
     <!-- QS rows and columns -->
     <string name="qs_tiles_cat_title">Quick Tiles</string>
-    <string name="qs_rows_columns_title">QS tiles rows and columns</string>
+    <string name="qs_rows_columns_title">Quick tiles rows and columns</string>
     <string name="qs_rows_columns_sum">Change the amount of rows and columns in panel</string>
     <string name="qs_rows_portrait_title">Tiles rows on portrait</string>
     <string name="qs_rows_landscape_title">Tiles rows on landscape</string>
@@ -146,7 +146,7 @@
     <string name="qs_columns_landscape_title">Tiles columns on landscape</string>
     <string name="qs_portrait_category_title">Portrait</string>
     <string name="qs_landscape_category_title">Landscape</string>
-    <string name="qs_tile_title_visibility_title">Show tiles title</string>
+    <string name="qs_tile_title_visibility_title">Show labels for tiles</string>
 
     <!-- Heads up options -->
     <string name="less_boring_heads_up_title">Heads-up less intrusive</string>
@@ -313,6 +313,6 @@
     <string name="immersive_recents_navbar">Navbar only</string>
 
     <!-- Whether to display IME switcher notifcation -->
-    <string name="ime_switcher_notify">Selector notification</string>
-    <string name="ime_switcher_notify_summary">Display input method selector notification</string>
+    <string name="ime_switcher_notify">IME switcher notifcation</string>
+    <string name="ime_switcher_notify_summary">Display IME switcher selector in notifcation</string>
 </resources>
