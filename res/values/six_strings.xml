@@ -315,4 +315,8 @@
     <!-- Whether to display IME switcher notifcation -->
     <string name="ime_switcher_notify">IME switcher notifcation</string>
     <string name="ime_switcher_notify_summary">Display IME switcher selector in notifcation</string>
+
+    <!-- Power notifications -->
+    <string name="power_notifications_title">Power notifications</string>
+    <string name="power_notifications_summary">Advanced notifications control on long press</string>
 </resources>
