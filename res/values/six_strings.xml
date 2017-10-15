@@ -317,12 +317,16 @@
     <string name="immersive_recents_navbar">Navbar only</string>
 
     <!-- Whether to display IME switcher notifcation -->
-    <string name="ime_switcher_notify">IME switcher notifcation</string>
-    <string name="ime_switcher_notify_summary">Display IME switcher selector in notifcation</string>
+    <string name="ime_switcher_notify">IME switcher notification</string>
+    <string name="ime_switcher_notify_summary">Display IME switcher selector in notification</string>
 
-    <!-- Power notifications -->
+    <!-- Power menu -->
+    <string name="powermenu_cat_title">Power menu</string>
+    <string name="power_menu_summary">Customize the power menu items</string>
+
+    <!-- Power notifications -->		
     <string name="power_notifications_title">Power notifications</string>
-    <string name="power_notifications_summary">Advanced notifications control on long press</string>
+    <string name="power_notifications_summary">Enable advanced notifications control on long-press</string>
 
     <!-- Force expanded notifications -->
     <string name="force_expanded_notifications_title">Force Expanded Notifications</string>
